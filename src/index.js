@@ -74,7 +74,7 @@ class Files extends React.Component {
     this.setState({
       files: this.props.multiple === false
         ? files
-        : [...this.state.files, ...files]
+        : [...files]
     }, () => {
       this.props.onChange.call(this, this.state.files)
     })
