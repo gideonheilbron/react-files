@@ -1,3 +1,7 @@
+## Issue fixed:
+> State in this package was remembering all earlier dropped files causing duplicate files to be passed when uploading multiple times.
+
+
 react-files
 =======================
 
